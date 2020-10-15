@@ -63,7 +63,7 @@ class Table extends Component {
           if (activeCellnColumn === gridSize && currentRow === gridSize) {
             current_row = 1;
           } else {
-            current_row = (activeCellnColumn === gridSize) && (currentRow !== 4) ? currentRow + 1 : currentRow;
+            current_row = (activeCellnColumn === gridSize) && (currentRow !== gridSize) ? currentRow + 1 : currentRow;
           }
           break;
         case 40:
